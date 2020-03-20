@@ -1,0 +1,450 @@
+/* Phone Resolution */
+@media (max-width:415px){
+    html{
+        scroll-behavior: smooth;
+        min-width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #nav{
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1;
+    }
+    
+    #home{
+        background-image: url("images/home-background.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    #home-text{
+        color: white;
+        text-align: center;
+        padding-top: 45vh;
+    }
+    
+    #home-text hr{
+        width: 20vw;
+        border: solid white 1px;
+    }
+    
+    #info{
+        background-color: white;
+        min-height: 100vh;
+    }
+    
+    #info-title, #education-title, #abilities-title, #project-title{
+        padding-top: 10vh;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    
+    #info-title hr, #education-title hr, #abilities-title hr,#project-title hr{
+        width: 50vw;
+        border: solid black 1px;
+    }
+    
+    #info-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 50vw;
+        align-items: center;
+    }
+    
+    #image, #text{
+        flex-grow: 1;
+        max-width: 25vw;
+    }
+    
+    #image img{
+        border-radius: 50%;
+        width: 200px;
+    }
+    
+    .borderless td, .borderless th {
+        border: none;
+    }
+    
+    #info-icon{
+        position: absolute;
+        margin: 0 15%;
+    }
+    
+    #info-icon button{
+        background-color: white;
+        border: none;
+    }
+    
+    #info-icon a, .hover{
+        color: black;
+        text-decoration: none;
+    }
+    
+    #education{
+        background-color: #f5f5ef;
+        height: 90vh;
+        text-align: center;
+    }
+    
+    .card{
+        background-color:#f5f5ef;
+        border: none;
+        padding-bottom: 20vh;
+    }
+    
+    #abilities{
+        min-height: 100vh;
+    }
+                
+    #abilities-container{
+        max-width: 80vw;
+        margin: 0 25vw;
+    }
+    
+    #ablilities-languages{
+        margin: 10vh 0;
+    }
+    
+    .bar{
+        margin: 20px 0;
+    }
+    
+    #project{
+        min-height: 100vh;
+        background-color: #f5f5ef;
+    }
+
+    #project-container{
+        display: flex;
+        justify-content: center;
+        margin: 0 25vw;
+    }
+    .iframe-container {
+        margin-bottom: 20%;
+      }
+   
+    #footer{
+        height: 50px;
+        background: black;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        color: white;
+    }
+}
+
+/* Tab Resolution */
+@media (min-width:416px) and (max-width:991px){
+  html{
+      scroll-behavior: smooth;
+      min-width: 100vw;
+      margin: 0;
+      padding: 0;
+  }    
+
+    #nav{
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1;
+    }
+    
+    #home{
+        background-image: url("images/home-background.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    #home-text{
+        color: white;
+        text-align: center;
+        padding-top: 45vh;
+    }
+    
+    #home-text hr{
+        width: 20vw;
+        border: solid white 1px;
+    }
+    
+    #info{
+        background-color: white;
+        min-height: 100vh;
+    }
+    
+    #info-title, #education-title, #abilities-title, #project-title{
+        padding-top: 15vh;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    
+    #info-title hr, #education-title hr, #abilities-title hr,#project-title hr{
+        width: 50vw;
+        border: solid black 1px;
+    }
+    
+    #info-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 50vw;
+        margin: 0 30%;
+    }
+    
+    #image, #text{
+        flex-grow: 1;
+        max-width: 25vw;
+    }
+    
+    #image img{
+        border-radius: 50%;
+    }
+    
+    .borderless td, .borderless th {
+        border: none;
+    }
+    
+    #info-icon{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #info-icon button{
+        background-color: white;
+        border: none;
+    }
+    
+    #info-icon a, .hover{
+        color: black;
+        text-decoration: none;
+    }
+    
+    #education{
+        background-color: #f5f5ef;
+        height: 90vh;
+        text-align: center;
+    }
+    
+    .card{
+        background-color:#f5f5ef;
+        border: none;
+        padding-bottom: 20vh;
+    }
+    
+    #abilities{
+        min-height: 100vh;
+    }
+                
+    #abilities-container{
+        max-width: 80vw;
+        margin: 0 25vw;
+    }
+    
+    #ablilities-languages{
+        margin: 10vh 0;
+    }
+    
+    .bar{
+        margin: 20px 0;
+    }
+    
+    #project{
+        min-height: 100vh;
+        background-color: #f5f5ef;
+    }
+
+    #project-container{
+        display: flex;
+        justify-content: center;
+        margin: 0 25vw;
+    }
+    
+    .iframe-container {
+        overflow: hidden;
+        padding-top: 56.25%;
+        position: relative;
+        margin-bottom: 10%;
+      }
+       
+      .iframe-container iframe {
+         height: 100%;
+         border: 0;
+         left: 0;
+         top: 0;
+         width: 100%;
+         position: absolute;
+      }
+    
+    #footer{
+        height: 50px;
+        background: black;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        color: white;
+    }
+}
+
+/* laptop and tab */
+@media (min-width:992px){
+html{
+      scroll-behavior: smooth;
+      min-width: 100vw;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+  }
+    
+#nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+#home{
+    background-image: url("images/home-background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#home-text{
+    color: white;
+    text-align: center;
+    padding-top: 45vh;
+}
+
+#home-text hr{
+    width: 20vw;
+    border: solid white 1px;
+}
+
+#info{
+    background-color: white;
+    min-height: 100vh;
+}
+
+#info-title, #education-title, #abilities-title, #project-title{
+    padding-top: 15vh;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#info-title hr, #education-title hr, #abilities-title hr,#project-title hr{
+    width: 50vw;
+    border: solid black 1px;
+}
+
+#info-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 50vw;
+    margin: 0 25vw;
+}
+
+#image, #text{
+    flex-grow: 1;
+    max-width: 25vw;
+}
+
+#image img{
+    border-radius: 50%;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+#info-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info-icon button{
+    background-color: white;
+    border: none;
+}
+
+#info-icon a, .hover{
+    color: black;
+    text-decoration: none;
+}
+
+#education{
+    background-color: #f5f5ef;
+    height: 90vh;
+    text-align: center;
+}
+
+.card{
+    background-color:#f5f5ef;
+    border: none;
+    padding-bottom: 10vh;
+}
+
+#abilities{
+    min-height: 100vh;
+}
+            
+#abilities-container{
+    max-width: 80vw;
+    margin: 0 25vw;
+}
+
+#ablilities-languages{
+    margin: 10vh 0;
+}
+
+.bar{
+    margin: 20px 0;
+}
+
+#project{
+    min-height: 100vh;
+    background-color: #f5f5ef;
+}
+
+#project-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 25vw;
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    margin-bottom: 10%;
+  }
+   
+  .iframe-container iframe {
+     height: 100%;
+     border: 0;
+     left: 0;
+     top: 0;
+     width: 100%;
+     position: absolute;
+  }
+
+#footer{
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    color: white;
+}
+}
